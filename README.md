@@ -1,3 +1,5 @@
+> **Bu nusxa:** [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) (MIT) + bizning [`kit/`](kit/README.md) — o'zbekcha ovoz (Navoiy), haqiqiy ovoz effektlari (Openverse, Earshot, real-sound), vertikal doska.
+
 <div align="center">
 
 # Lemo-Opuscar
