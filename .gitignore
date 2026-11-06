@@ -1,0 +1,23 @@
+# Finished films and working files
+films/
+*.mp4
+*.mov
+*.webm
+
+# Voices and audio samples
+*.wav
+*.ogg
+*.mp3
+*.m4a
+
+# Models and environments
+*.pt
+*.onnx
+*.safetensors
+.venv/
+node_modules/
+
+# Secrets
+.env
+.env.*
+*.token

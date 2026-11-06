@@ -1,0 +1,12 @@
+{
+  "name": "video-markazi",
+  "owner": { "name": "ubaydullayevgiyosiddin7-eng" },
+  "metadata": { "description": "Video ishlari uchun shaxsiy markaz." },
+  "plugins": [
+    {
+      "name": "video-markazi",
+      "source": "./",
+      "description": "Video ishlari uchun yagona kirish nuqtasi: vositalar, sinalgan saboqlar va yangiliklar."
+    }
+  ]
+}
