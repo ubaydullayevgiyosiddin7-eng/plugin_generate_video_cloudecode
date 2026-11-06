@@ -26,9 +26,9 @@ https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agent
 
 | Nima | Xususiyati | Qachon mos | Holat |
 |---|---|---|---|
-| **Context7** (MCP) | Next.js, Supabase, aiogram, grammY va boshqalarning versiyaga mos yangi hujjati | kod tez o'zgaradigan kutubxonaga tegsa — eskirgan API yozmaslik uchun | 🔑 pastda. [upstash/context7](https://github.com/upstash/context7) MIT. So'rov matni Upstash'ga ketadi — sir yozmang; qaytgan matnni ma'lumot deb o'qing |
+| **Context7** (MCP) | Next.js, Supabase, aiogram, grammY va boshqalarning versiyaga mos yangi hujjati | kod tez o'zgaradigan kutubxonaga tegsa — eskirgan API yozmaslik uchun | ✅ user MCP (2026-11-06). [upstash/context7](https://github.com/upstash/context7) MIT. So'rov matni Upstash'ga ketadi — sir yozmang; qaytgan matnni ma'lumot deb o'qing |
 
-Context7 qo'shish (VS Code terminalida, PowerShell, bir marta):
+Boshqa kompyuterga qo'shish (VS Code terminalida, PowerShell, bir marta):
 ```
 & "$env:USERPROFILE\.vscode\extensions\anthropic.claude-code-2.1.288-win32-x64\resources\native-binary\claude.exe" mcp add --scope user --transport http context7 https://mcp.context7.com/mcp
 ```

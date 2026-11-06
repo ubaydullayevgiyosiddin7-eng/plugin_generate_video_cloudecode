@@ -15,7 +15,7 @@ Holat belgilari (hamma bo'limda bir xil): ✅ o'rnatilgan · 🔑 egasi qo'shadi
 | [`documents/`](documents/README.md) | fayllarni o'qish va yaratish | ✅ markitdown · ✅ docx/pdf/pptx/xlsx skillari |
 | [`automation/`](automation/README.md) | Telegram botlar, avtomatlashtirish, ma'lumot yig'ish | aiogram + Context7 · telegram-reader · n8n, ScrapeGraph |
 | [`uzbek/`](uzbek/README.md) | loyiha o'zbek tilida ishlashi kerak bo'lsa | STT/TTS, LLM reytingi, lotin↔kirill, Click/Payme, Eskiz, xaritalar |
-| [`claude-code/`](claude-code/README.md) | Claude bilan har qanday ishda | ishlash usullari, 🔑 Context7, yangi narsa topish joylari, ishlatilmaydiganlar |
+| [`claude-code/`](claude-code/README.md) | Claude bilan har qanday ishda | ishlash usullari, ✅ Context7, yangi narsa topish joylari, ishlatilmaydiganlar |
 | [`hackathon/`](hackathon/README.md) | xakaton, tanlov, saralash | playbook, ✅ hackathon skill, hakam agenti — qurish uchun yuqoridagi bo'limlarga yo'naltiradi |
 
 Umumiy toollar va tokenlar repoda emas: `C:\My_poject\tools\` (telegram-reader, `secrets\.env`).
