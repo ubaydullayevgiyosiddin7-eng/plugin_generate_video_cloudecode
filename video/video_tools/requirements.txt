@@ -1,0 +1,10 @@
+# Python 3.11 (tested 3.11 / Windows 11).  External: ffmpeg + ffprobe 7+ on PATH (tested 8.0 "full"
+# build: needs libx264, libx265, libvmaf for export.py --vmaf).
+# Versions = what the kit was built and tested with; nearby versions work.
+numpy>=1.26,<3            # tested 2.2.5    - everything
+opencv-python-headless>=4.8  # tested 4.13.0 - engine warps/stabilisation, measure_motion, reframe_preview
+pillow>=10.1              # tested 12.3.0   - photos, text rendering, contact sheets
+pillow-heif>=0.16         # tested 1.8.0    - iPhone HEIC (heic_convert, engine photo items, probe_media)
+scipy>=1.11               # tested 1.17.0   - engine loudness (K-weighting), stabilisation smoothing
+fonttools>=4.40           # tested 4.62.1   - engine text: per-glyph font fallback
+librosa>=0.10             # tested 0.11.0   - tools/music_beats.py only (pulls in numba, soundfile, audioread)
