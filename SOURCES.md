@@ -12,4 +12,3 @@ Begona narsalar shu yerda yoziladi: nima, qayerdan, litsenziya, qachon olindi.
 | opus-sound-layer | repoda yo'q, `video/sound/setup.sh` o'rnatadi | https://github.com/Bodila51/opus-sound-layer | MIT | 2026-11 |
 | Openverse API | `video/sound/openverse.py` chaqiradi | https://openverse.org | yozuvlar har xil: faqat CC0 / PDM / CC BY olinadi | 2026-11 |
 | Shriftlar | `video/video_tools/engine/fonts/` | Google Fonts | OFL / Apache 2.0 (litsenziya fayllari papkada) | 2026-10 |
-| Telethon | `tools/telegram-reader` ishlatadi | https://github.com/LonamiWebs/Telethon | MIT | 2026-11 |

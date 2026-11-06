@@ -7,7 +7,9 @@ har birining o'z README'si bor.
 |---|---|---|
 | [`video/`](video/README.md) | Video qilish: kod bilan film (lemo-opuscar ustiga qo'shimchalar), o'zbekcha ovoz, ovoz effektlari, telefon videolaridan film yig'adigan `video_tools` kit va uning 4 ta agenti | ishlaydi, reellar shu bilan qilingan |
 | [`hackathon/`](hackathon/README.md) | Xakatonda yutish uchun: topshiriqni tahlil qilish, baholash mezonlari, qurish, pitch, topshirish | yig'ilmoqda |
-| [`tools/`](tools/README.md) | Umumiy toollar (masalan, Telegram kanal o'quvchi) | ishlaydi |
+
+Umumiy toollar (Telegram kanal o'quvchi va boshqalar) va tokenlar bu repoda emas — kompyuterda `C:\My_poject\tools\`
+da turadi, hamma loyihalar uchun bitta.
 
 Har bir narsa qayerdan olingani va litsenziyasi: [`SOURCES.md`](SOURCES.md).
 
@@ -22,7 +24,7 @@ qaysi narsa qayerdaligini o'zi biladi.
 
 ## Yangi narsa qo'shish
 
-1. To'g'ri papkaga qo'ying (video → `video/`, xakaton → `hackathon/`, umumiy → `tools/`). Mos papka bo'lmasa, yangisini oching.
+1. To'g'ri papkaga qo'ying (video → `video/`, xakaton → `hackathon/`). Mos papka bo'lmasa, yangisini oching.
 2. Papkaning README'sidagi jadvalga bir qator qo'shing.
 3. Begona narsa bo'lsa, manbasi va litsenziyasini [`SOURCES.md`](SOURCES.md) ga yozing.
 4. Parol, token, `.env`, `.session`, shaxsiy rasm/video/ovoz hech qachon repoga tushmaydi.

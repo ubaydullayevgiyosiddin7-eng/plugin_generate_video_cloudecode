@@ -7,7 +7,7 @@ Egasining Claude Code uchun yig'ib borayotgan to'plami: skillar, agentlar, tooll
 
 - `video/` — video ishlari. Boshlashdan oldin [`video/README.md`](video/README.md) ni o'qi.
 - `hackathon/` — xakaton ishlari. [`hackathon/README.md`](hackathon/README.md).
-- `tools/` — umumiy toollar. [`tools/README.md`](tools/README.md).
+- Umumiy toollar va tokenlar bu repoda emas: `C:\My_poject\tools\` (o'sha yerdagi README). Ularni bu repoga ko'chirma.
 - `SOURCES.md` — begona narsalarning manbasi va litsenziyasi.
 
 Har bir bo'limning ichki qoidalari o'zining README / CLAUDE.md faylida. Bir bo'lim ustida ishlaganda boshqasining

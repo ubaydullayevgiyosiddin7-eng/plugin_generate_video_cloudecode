@@ -17,11 +17,6 @@ video/video_tools/retro/
 video/video_tools/inbox.md
 video/video_tools/audit/
 
-# telegram-reader natijalari
-tools/telegram-reader/state.json
-tools/telegram-reader/*.md
-!tools/telegram-reader/README.md
-
 # media va OS
 *.mp4
 *.mov
