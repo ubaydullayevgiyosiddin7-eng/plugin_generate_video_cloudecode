@@ -5,17 +5,19 @@ Egasining Claude Code uchun yig'ib borayotgan to'plami: skillar, agentlar, tooll
 
 ## Qayerda nima
 
-- `video/` — video ishlari. Boshlashdan oldin [`video/README.md`](video/README.md) ni o'qi.
-- `hackathon/` — xakaton ishlari. [`hackathon/README.md`](hackathon/README.md).
+- [`QOLLANMA.md`](QOLLANMA.md) — umumiy xarita: bo'limlar, holat belgilari, qanday tanlash.
+- Bo'limlar ish turiga ko'ra: `web/`, `video/`, `documents/`, `automation/`, `uzbek/`, `claude-code/`, `hackathon/`.
+  `hackathon/` da faqat xakatonga xos narsa (jarayon, hakamlar, pitch); toollar o'z bo'limida, xakaton faqat havola beradi.
 - Umumiy toollar va tokenlar bu repoda emas: `C:\My_poject\tools\` (o'sha yerdagi README). Ularni bu repoga ko'chirma.
-- `SOURCES.md` — begona narsalarning manbasi va litsenziyasi.
+- `SOURCES.md` — repoga kirgan begona narsalarning manbasi va litsenziyasi.
 
 Har bir bo'limning ichki qoidalari o'zining README / CLAUDE.md faylida. Bir bo'lim ustida ishlaganda boshqasining
 qoidalarini aralashtirma.
 
 ## Yangi narsa qo'shganda
 
-- To'g'ri papkaga qo'y, o'sha papka README'sidagi jadvalni va kerak bo'lsa bosh `README.md` ni yangila.
+- Turiga qarab to'g'ri bo'limga qo'y; bo'lim jadvaliga qator (xususiyati, qachon mos, holat ✅ 🔑 📦 ⛔). Yangi bo'lim
+  ochilsa — `QOLLANMA.md` va bosh `README.md` ga ham. Bir narsani ikki joyda tasvirlama: boshqa bo'lim faqat havola beradi.
 - Begona narsa (skill, repo, prompt): `SOURCES.md` ga manba havolasi, litsenziya, sana. Litsenziyasi noma'lum yoki
   NC/ND bo'lsa — egasidan so'ra.
 - Repo ochiq (public). Parol, token, `.env`, `.session`, shaxsiy rasm/video/ovoz, odamlar haqidagi tafsilotlar

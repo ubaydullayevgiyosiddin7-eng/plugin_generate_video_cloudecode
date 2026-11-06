@@ -13,6 +13,24 @@ Ikki xil ish uchun narsalar:
 | [`whiteboard-vertical/`](whiteboard-vertical/README.md) | lemo-opuscar doska engine'i 9:16 (Reels) uchun | ishlaydi, birinchi reel shu bilan |
 | [`video_tools/`](video_tools/README.md) | telefon videolari → tayyor film: EDL engine, 13 ta tool, saboqlar, agent promptlari va o'zini o'rgatadigan 4 ta agent (retro → toolsmith + curator → auditor) | ishlaydi, 2 ta film shu bilan |
 
+## Tashqi resurslar
+
+Holat: ✅ o'rnatilgan · 📦 kerak bo'lganda · ⛔ ishlatilmaydi
+
+| Nima | Xususiyati | Qachon mos | Holat |
+|---|---|---|---|
+| **lemo-opuscar** | 66 uslubda kod bilan film (doska, akvarel, infografika...), video modelsiz | tushuntiruvchi / animatsion reel | ✅ plagin (pastda) |
+| **youtube-agent-skill** | 11 skill: ssenariy (21 hook formulasi), sarlavha + thumbnail, Shorts kesish, SEO, kanal auditi | YouTube kanal yuritish; hook formulalari reels uchun ham | 📦 [repo](https://github.com/Jakeschincariol/youtube-agent-skill) MIT |
+| **DaVinci Resolve MCP** | Claude DaVinci'da montaj qiladi | pullik DaVinci bo'lsa | 📦 qo'llanma: "Jaloliddin Tech" kanali #86 (PDF) |
+| Clipwing real-sfx | kadrga mos ovoz effekti | — | 📦 `sound/` dagi Earshot real-sound bilan bir xil; 81★, litsenziyasiz |
+| LTX-2.5 | lokal video generatsiya | — | 📦 NVIDIA + 70 GB kerak, bu kompyuterga to'g'ri kelmaydi |
+| ⛔ Remotion skills | kod bilan video | — | lemo-opuscar bilan bir xil; 4+ kishilik tashkilotga pullik |
+| ⛔ CapCut "skill" | — | — | ChatGPT uchun, noma'lum CDN'dagi ko'rsatma |
+
+Tanlash: **tushuntiruvchi / animatsiya** → lemo-opuscar (+ `navoiy`, `sound`). **Telefon videolari, sayohat, tadbir** →
+`video_tools`. **Xakaton demo videosi** → ekran yozuvi + `video_tools` yoki lemo-opuscar'ning "Living Screencast" uslubi.
+O'zbekcha ovoz va nutqni tanish: [`../uzbek/`](../uzbek/README.md).
+
 ## lemo-opuscar'ni o'rnatish
 
 ```sh

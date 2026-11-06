@@ -91,3 +91,5 @@ huquqi bor musiqa yo'q. Video bizning `video/` kit bilan ham qilinadi.
 - Yaxshi topshirish: https://dev.to/dorahacks/what-does-a-good-hackathon-submission-look-like-5398 ·
   https://dev.to/jacklynbiggin/how-to-make-your-devpost-submissions-not-suck-37i0
 - Tuzilishi uchun o'qilgan (o'rnatilmagan, yangi va tekshirilmagan): github.com/SidTheKid-dotcom/hackathon-playbook (MIT)
+- ⛔ abhilashpandurangan/hackathon-prep (litsenziyasiz — faqat g'oya), rajkaria/hackathon-skills (tarmoqqa chiqadigan
+  skriptlar, web3) — ~0★, tekshirilmagan; g'oyalari bu playbook'ga o'z so'zimiz bilan olingan
