@@ -11,22 +11,15 @@ Claude Code uchun video ishlarining yagona kirish nuqtasi. Istalgan papkada "vid
 
 Repo'da modellar, ovoz namunalari, tayyor videolar va tokenlar yo'q.
 
-## Shu kompyuterga ulash (Windows)
+## Yangi kompyuterga ulash (Windows)
+
+Markaz `plugin_generate_video_cloudecode` repo'sining `video-markazi` branch'ida turadi. Opuscar va `kit/` shu repo'ning `main` branch'ida.
 
 ```powershell
-git clone <repo-url> D:\My_projects\video
-cmd /c mklink /J "$env:USERPROFILE\.claude\skills\video" "D:\My_projects\video\skills\video"
+git clone -b video-markazi https://github.com/ubaydullayevgiyosiddin7-eng/plugin_generate_video_cloudecode.git D:\My_projectsideo
+cmd /c mklink /J "$env:USERPROFILE\.claude\skillsideo" "D:\My_projectsideo\skillsideo"
 ```
 
 Papka bog'langani uchun `skills/video` dagi har bir o'zgarish darrov ishlaydi. Yangi Claude sessiyasini oching va `/video` deb yozing.
 
 Vositalarni o'rnatish: `skills/video/tools/navoiy.md` va `skills/video/tools/opuscar.md`.
-
-## Boshqa kompyuterlar uchun plugin
-
-```text
-claude plugin marketplace add <egasi>/<repo>
-claude plugin install video-markazi@video-markazi
-```
-
-Bu usulda fayllar keshga nusxalanadi, yangilanishlar uchun plugin'ni yangilash kerak.
