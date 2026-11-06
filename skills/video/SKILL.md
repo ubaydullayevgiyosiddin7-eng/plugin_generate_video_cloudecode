@@ -52,11 +52,4 @@ Yangi, sinalgan saboq bo'lsa, `lessons.md` ga bitta qator qo'shing. Taxminlarni 
 
 ## Yangilik qo'shish
 
-Egasi vosita yoki yangilik havolasini berganda:
-
-1. Sahifani o'qing va `news.md` ning "Kutilmoqda" bo'limiga yozing: nima, qayerdan, sana.
-2. Litsenziya va narxni tekshiring, kodini o'qing. Kodini ko'rmasdan hech narsa o'rnatmang.
-3. Egasining ruxsati bilan alohida papkada kichik sinov qiling.
-4. Ishlasa: yozuvni "Sinalgan" ga o'tkazing, kerakli `tools/` fayliga va yuqoridagi jadvalga qo'shing. Ishlamasa: "Rad etilgan" ga sababi bilan o'tkazing.
-
-Commit va push faqat egasi so'raganda qilinadi.
+Egasi vosita yoki yangilik havolasini berganda `kutubxona` skill'i bo'yicha ishlang: u tekshirish, bir xil turdagi vositalarni solishtirish, eskirganini tavsiya qilish va GitHub'ga yuklash tartibini aytadi. Xulosani `news.md` ga va yangilangan holatni `skills/kutubxona/katalog.md` ga yozing.
