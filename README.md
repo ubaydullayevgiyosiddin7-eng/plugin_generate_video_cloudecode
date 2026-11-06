@@ -11,7 +11,8 @@ har birining o'z README'si bor.
 Umumiy toollar (Telegram kanal o'quvchi va boshqalar) va tokenlar bu repoda emas — kompyuterda `C:\My_poject\tools\`
 da turadi, hamma loyihalar uchun bitta.
 
-Har bir narsa qayerdan olingani va litsenziyasi: [`SOURCES.md`](SOURCES.md).
+Tashqi skill va toollar (nima, qachon ishlatiladi, o'rnatilganmi): [`RESOURCES.md`](RESOURCES.md).
+Repoga kirgan begona narsalarning manbasi va litsenziyasi: [`SOURCES.md`](SOURCES.md).
 
 ## Qanday ishlatish
 
