@@ -14,6 +14,11 @@ Holat: ✅ o'rnatilgan · 🔑 egasi qo'shadi (sozlama yoki akkaunt kerak) · �
 | **taste-skill** (`design-taste-frontend`) | figma.com / x.ai darajasidagi kompaniya sayti; haqiqiy rasmlar, bitta tizim, "AI qilgandek" ko'rinmaydi; brauzerda o'zi tekshiradi. Qoidalari qat'iy: bir bo'lim = bir ekran, rasm ostida izoh yo'q | kompaniya, mahsulot, landing, kafe, SaaS sayti; "sayt shablonga o'xshaydi" degan holat | ✅ `~/.claude/skills/design-taste-frontend` · [repo](https://github.com/Leonxlnx/taste-skill) MIT |
 | **awesome-design-md** | Linear, Stripe, Vercel, Apple... uslubidagi tayyor `DESIGN.md` (ranglar, shrift, tugmalar); loyihaga bitta fayl qo'yiladi | ilova interfeysi: dashboard, CRM, admin, bot paneli — bu yerda taste-skill qoidalari to'g'ri kelmaydi | 📦 [repo](https://github.com/VoltAgent/awesome-design-md) MIT |
 
+| **better-layout** (jakubkrehel) | guruhlash, tekislash, o'qish tartibi, responsive tuzilma; o'lcham o'zgarsa, tarjima uzunroq bo'lsa (o'zbekcha!) yoki RTL da buzilmasligini sinaydi. Claude'ning eng zaif joyi — layout | sahifa "tartibsiz" ko'rinsa, kartalar tekis emas, telefon/tarjimada buziladi | ✅ `~/.claude/skills/better-layout` (2026-11-07) · [repo](https://github.com/jakubkrehel/skills) MIT 11k★ |
+| **animate** (Emil Kowalski) | animatsiyani to'g'ri tartibda quradi: kerakmi → maqsad → tool → xususiyat → egri chiziq va davomiylik → to'xtatilishi → chiqishi | hover, o'tish, "jonli" komponent kerak bo'lganda; animatsiya — alohida, oxirgi bosqich | ✅ `~/.claude/skills/animate` (2026-11-07) · [repo](https://github.com/emilkowalski/skills) MIT 54k★ |
+| Emil Kowalski / jakubkrehel qolgan skillari (improve-animations, apple-design, interface-review, better-typography, better-colors...) | animatsiya auditi, tipografiya, ranglar, branch ko'rigi | kerak bo'lsa bittadan | 📦 hammasi faqat matn, MIT; har biri sessiyada joy egallagani uchun hammasi olinmagan; interface-review ≈ bizning design-reviewer |
+| tastemaker (codeswithroh) | namunadan aniq qiymatlarni skript bilan oladi, doimiy "did" fayli | namuna asosida aniq nusxa kerak bo'lsa | 📦 526★ MIT, 33 skript — taste-skill + UI-UX jarayoni bilan ustma-ust |
+
 Tanlash: **sotadigan sahifa** (odamga nima sotilishini ko'rsatadi) → taste-skill. **Ishlatiladigan ekran** (jadval, forma,
 filtr) → o'xshash mahsulotning DESIGN.md i. Topshiriq yoki mijoz boshqa uslub so'rasa — u ustun.
 

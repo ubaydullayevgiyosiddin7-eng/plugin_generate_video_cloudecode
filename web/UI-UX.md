@@ -14,7 +14,8 @@ Toollar: [`README.md`](README.md).
 4. Avval statik tuzilma. Asosiy CTA — birinchi ekrandagi eng kontrast element.
 5. Har o'zgarishdan keyin: 375 / 768 / 1440 da skrinshot → DESIGN.md va namuna bilan solishtirish → konsol → tuzatish.
 6. Tanqid: design-reviewer agenti (agents/design-reviewer.md) — P0/P1/P2; P0 va P1 tuzatiladi.
-7. Harakat (animatsiya) eng oxirida: hover / focus / submit javobi, yumshoq scroll reveal, prefers-reduced-motion.
+7. Harakat (animatsiya) eng oxirida — `animate` skill: hover / focus / submit javobi, yumshoq scroll reveal,
+   prefers-reduced-motion. Layout tartibsiz bo'lsa — `better-layout`.
 8. Yakun: web-design-guidelines, oxirgi skrinshotlar.
 ```
 
@@ -95,11 +96,10 @@ Toollar: [`README.md`](README.md).
 - **D:** Create a Pro Website — "The EASY way to build a beautiful website with Claude Code", https://youtu.be/fDTwHIKltpc
   (hosting qismi reklama)
 
-## Videolarda tilga olingan, hali tekshirilmagan skillar
+## Videolarda tilga olingan skillar (2026-11-07 da tekshirildi)
 
-Ko'rib chiqish navbatida (o'rnatishdan oldin repo, litsenziya, ichidagi buyruqlar tekshiriladi):
-
-- Emil Kowalski skillari (animate, design-engineering) — animatsiya; bizda bu bo'shliq
-- jakubkrehel skillari (review, layout) — pikselgacha layout tuzatish
-- tastemaker (codeswithroh) — namunadan aniq qiymatlarni skript bilan olish
-- UI UX Pro Max (npm), landing-page-design, MengTo skills, designer-skills — qisman taste-skill bilan ustma-ust
+- ✅ **animate** (emilkowalski/skills, MIT, 54k★, faqat matn) — o'rnatildi: 7-qadam (animatsiya) uchun.
+- ✅ **better-layout** (jakubkrehel/skills, MIT, 11k★, faqat matn) — o'rnatildi: layout va spacing uchun.
+- 📦 Shu ikki to'plamning qolgan skillari, tastemaker — [`README.md`](README.md) → Dizayn.
+- Tekshirilmagan: UI UX Pro Max (npm — begona kod ishga tushiradi), landing-page-design, MengTo skills, designer-skills —
+  qisman taste-skill bilan ustma-ust.

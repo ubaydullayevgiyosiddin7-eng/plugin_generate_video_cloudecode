@@ -23,6 +23,7 @@ Holat: ✅ o'rnatilgan · 📦 kerak bo'lganda · ⛔ ishlatilmaydi
 | Nima | Xususiyati | Qachon mos | Holat |
 |---|---|---|---|
 | **lemo-opuscar** | 66 uslubda kod bilan film (doska, akvarel, infografika...), video modelsiz | tushuntiruvchi / animatsion reel | ✅ plagin (pastda) |
+| **HyperFrames** (HeyGen) | "HTML yoz — video render qil": agentlar uchun video freymvork; tayyor bloklar, `captions-overlay` (subtitr), `motion-doctrine` skillari | lemo-opuscar'ga muqobil yoki qo'shimcha: haqiqiy video ustiga motion-grafika va subtitr | 📦 [repo](https://github.com/heygen-com/hyperframes) Apache-2.0 · 80k★ · 331 MB — o'rnatiladigan skill emas, loyiha kerak bo'lganda sinab ko'riladi |
 | **youtube-agent-skill** | 11 skill: ssenariy (21 hook formulasi), sarlavha + thumbnail, Shorts kesish, SEO, kanal auditi | YouTube kanal yuritish; hook formulalari reels uchun ham | 📦 [repo](https://github.com/Jakeschincariol/youtube-agent-skill) MIT |
 | **DaVinci Resolve MCP** | Claude DaVinci'da montaj qiladi | pullik DaVinci bo'lsa | 📦 qo'llanma: "Jaloliddin Tech" kanali #86 (PDF) |
 | Clipwing real-sfx | kadrga mos ovoz effekti | — | 📦 `sound/` dagi Earshot real-sound bilan bir xil; 81★, litsenziyasiz |
