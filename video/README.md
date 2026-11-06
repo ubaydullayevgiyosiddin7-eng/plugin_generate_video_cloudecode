@@ -13,6 +13,9 @@ Ikki xil ish uchun narsalar:
 | [`whiteboard-vertical/`](whiteboard-vertical/README.md) | lemo-opuscar doska engine'i 9:16 (Reels) uchun | ishlaydi, birinchi reel shu bilan |
 | [`video_tools/`](video_tools/README.md) | telefon videolari → tayyor film: EDL engine, 13 ta tool, saboqlar, agent promptlari va o'zini o'rgatadigan 4 ta agent (retro → toolsmith + curator → auditor) | ishlaydi, 2 ta film shu bilan |
 
+**Reels / Shorts saboqlari** (qatorma-qator vizual reja, subtitr, ilgak, ovoz dizayni, topshirishdan oldin tekshiruv):
+[`REELS.md`](REELS.md).
+
 ## Tashqi resurslar
 
 Holat: ✅ o'rnatilgan · 📦 kerak bo'lganda · ⛔ ishlatilmaydi
