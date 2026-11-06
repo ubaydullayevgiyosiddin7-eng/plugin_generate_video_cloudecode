@@ -23,10 +23,11 @@ Qolgan resurslar va qachon olinishi: [`../RESOURCES.md`](../RESOURCES.md).
 
 | Papka | Nima turadi | Holat |
 |---|---|---|
-| [`cases/`](cases/) | o'tgan xakatonlar: topshiriq, mezonlar, nima qildik, nima ishladi. Skillar shu haqiqiy tajribadan quriladi | birinchisini to'ldirish kerak |
-| `skills/` | topshiriq tahlili (talablar jadvali), qurish qoidalari, pitch, topshirish cheklisti | rejada |
-| `agents/` | "hakam" agenti — topshirishdan oldin rubrika bo'yicha ball qo'yadi | rejada |
-| `templates/` | xakaton loyihasi uchun `CLAUDE.md` shabloni, pitch tuzilishi, README shabloni | rejada |
+| [`PLAYBOOK.md`](PLAYBOOK.md) | hakamlar qanday baholaydi, 10 qoida, 24 soatlik reja, pitch, topshirish cheklisti | tayyor |
+| [`skills/hackathon/`](skills/hackathon/SKILL.md) | Claude "xakaton" deganda o'zi ishga tushiradigan skill: brief → SPEC → qurish → tekshirish → pitch | tayyor, `~/.claude/skills/` ga o'rnatilgan |
+| [`agents/spec-reviewer.md`](agents/spec-reviewer.md) | "hakam" agenti: har bir talab va mezonni tekshiradi, ball qo'yadi, top-5 tuzatish | tayyor (loyihaning `.claude/agents/` ga) |
+| [`templates/`](templates/) | `SPEC.md` (talablar jadvali, demo ssenariysi), `CLAUDE.md` (loyiha qoidalari), `settings.json` (typecheck o'tmasa to'xtatmaydi, `.env` ni o'qitmaydi) | tayyor |
+| [`cases/`](cases/) | o'tgan xakatonlar: topshiriq, mezonlar, nima qildik, nima ishladi | birinchisini to'ldirish kerak |
 
 ## Reja
 

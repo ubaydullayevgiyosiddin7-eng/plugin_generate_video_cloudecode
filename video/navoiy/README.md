@@ -57,4 +57,7 @@ D:\My_projects\tts\.venv\Scripts\python video\navoiy\navoiy_tts.py --root D:\My_
 - `--speed 1.15`–`1.25`: egasining ovozi uchun 1.15 to'g'ri tushgan. `--emotion`: calm, warm, happy, sad, angry, nervous, surprised, whisper, tired, sarcastic.
 - Bitta gapni o'zgartirsangiz faqat o'shani qayta chiqaring (alohida lines faylida) va raqamini almashtiring.
 - "no frontend is avaliable" va "unexpected 2 keys" xabarlari zararsiz.
-- Model ismlar, qisqartmalar va o'zlashma so'zlarni xato o'qishi mumkin; Claude talaffuzni tekshira olmaydi (Whisper o'zbekchani yomon taniydi) — har bir natijani o'zingiz eshiting.
+- Model ismlar, qisqartmalar va o'zlashma so'zlarni xato o'qishi mumkin. Oddiy Whisper o'zbekchani yomon taniydi; uning
+  o'rniga [NavAI Whisper](https://huggingface.co/navai-uz) (Apache-2.0, o'zbekchaga o'qitilgan, small/base CPU da ishlaydi)
+  bilan har bir `NN.wav` ni matnga qaytarib, `lines.txt` bilan solishtirish mumkin (sinalmagan, 2026-11 da topilgan).
+  Baribir har bir natijani o'zingiz eshiting. Boshqa o'zbekcha resurslar: [`../../uzbek/`](../../uzbek/README.md).
