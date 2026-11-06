@@ -16,7 +16,9 @@ bajarilgan) + hakamlar va g'oliblarning yozganlari (pastda). Har xakatondan keyi
 
 **Yaxshi loyihalar nega yutqazadi:** birinchi gapdan nima ekani tushunarsiz; demo to'xtab qoladi yoki faqat slayd;
 butun "platforma" yarim ishlaydi; pitch muammo o'rniga stack bilan boshlanadi; sponsor texnologiyasi ko'rinmaydi; repo
-yopiq yoki havola ishlamaydi; majburiy maydon / format yo'q (diskvalifikatsiya); isbotsiz buzzword'lar.
+yopiq yoki havola ishlamaydi; majburiy maydon / format yo'q (diskvalifikatsiya); isbotsiz buzzword'lar; har sovrin
+uchun bittadan sponsor API tiqilgan "oddiy g'oya"; demoda login yoki 4 ta funksiya; topshiriq matnini hakamga qayta
+aytib berish.
 
 ## 2. Qoidalar
 
@@ -33,18 +35,33 @@ yopiq yoki havola ishlamaydi; majburiy maydon / format yo'q (diskvalifikatsiya);
 9. Nimani tayyor oldingiz va nima birinchi buziladi — halol ayting; hakamlar buni yuqori baholaydi.
 10. Ko'rinadigan mayda narsalar: o'lik havola yo'q, lorem ipsum yo'q, bitta brend, telefonda ishlaydi. Zaxira demo
     video. 4–6 soat uxlash.
+11. **Sponsor texnologiyasi faqat g'oyaga tabiiy mos kelsa.** Har sovrin uchun API tiqish g'oyani "oddiy" qiladi va asosiy
+    top-3 ga chiqarmaydi; sponsor sovrinlari eng gavjumi.
+12. **Hissiy tortadigan muammo**, iloji bo'lsa o'zingiz yoki jamoangiz yashaydigan — hakam "sizning yutishingizni
+    xohlaydi". Bizda: aniq o'zbek foydalanuvchisi va uning aniq og'rig'i.
+13. **Hakam ushlab ko'radigan yoki ko'radigan narsa:** interaktiv (sinab ko'radi), vizual yoki qiziqarli — kamida bittasi.
+    Mahsulotni eng yaxshi ko'rsatadigan test ma'lumotlarini oldindan tayyorlang.
+14. Bitta ilg'or texnologiya — haqiqatan ishlatilgan va nega qiyinligi bir gapda tushuntirilgan; buzzword ro'yxati emas.
+
+## 2.5. Tadbirdan oldin
+
+- Jamoa: yon loyihasi yoki xakaton tajribasi borlar; asosiy va eng qiyin qismni eng tajribali kishi oladi.
+- Biladigan stack — "shu yerda React o'rganaman" yarim yo'lda yiqiladi.
+- Loyiha kodidan **boshqa hamma narsa** tayyor bo'lishi mumkin: stack, shablonlar (`../web/templates/`), deploy, API
+  bilan mashq, Claude skillari. Loyiha kodini oldindan yozish — qoidabuzarlik.
+- Qoidalar ruxsat bersa — mavzu va texnologiyani oldindan o'rganish, g'oya 1-soatda aniq bo'lsin, 10-soatda emas.
 
 ## 3. 24 soatlik reja (48 soat: qurish 2–30, sayqal/demo/mashq 30–48)
 
 | Soat | Ish |
 |---|---|
-| 0–1 | Qoidalar va mezonlarni ochish, g'oya, bir gaplik ta'rif. Rollar: quruvchi(lar), dizayn/frontend, taqdimotchi (pitch va topshirish uning zimmasida) |
+| 0–1 | Qoidalar va mezonlarni ochish, g'oya, bir gaplik ta'rif. Rollar: quruvchi(lar) — asosiy oqim eng tajribalida, dizayn/frontend, taqdimotchi (pitch va topshirish uning zimmasida) |
 | 1–2 | Demo ssenariysi, MVP ni bitta oqimga qisqartirish, talablar jadvali, stack, repo |
 | 2–6 | Boshidan oxirigacha ishlaydigan skelet. **Deploy.** Birinchi integratsiya |
 | 6–12 | Asosiy funksiya va "wow" lahza. 12-soatda tekshiruv: butun oqim ishlashi shart |
 | 12–18 | UI/UX sayqal, demo yo'lidagi chekka holatlar, demo ma'lumotlar. **18-soatda freeze** |
 | 18–20 | Toza qurilma va boshqa tarmoqda to'liq test (`playwright-cli`, `spec-reviewer` agenti). Sirlar skani. README |
-| 20–22 | Slaydlar, demo video (20-soatdan oldin boshlang), topshirish maydonlari |
+| 20–22 | Slaydlar, demo video (20-soatdan oldin boshlang), topshirish maydonlari — Devpost matni 20-soatgacha tayyor (hakamlar qaysi stolga borishni ko'pincha shundan hal qiladi) |
 | 22–23 | Erta topshirish, keyin pitchni 5+ marta mashq, savollarga tayyorgarlik |
 | 23–24 | Zaxira vaqt |
 
@@ -52,12 +69,21 @@ yopiq yoki havola ishlamaydi; majburiy maydon / format yo'q (diskvalifikatsiya);
 
 | Vaqt | Nima |
 |---|---|
-| 0:00–0:20 | "Bu — Y uchun X." Foydalanuvchi og'rig'i bitta aniq gapda, raqam bo'lsa raqam bilan |
+| 0:00–0:20 | "Bu — Y uchun X." Muammoga **o'z qarashingiz** (topshiriq matnini qaytarmang) + hozirgi holat haqida hayratlantiradigan bitta raqam |
 | 0:20–0:35 | Nega hozir / mavjud yechimlar nega yetmaydi |
-| 0:35–2:05 | **Jonli demo (vaqtning yarmi):** bitta yo'l, haqiqiy ma'lumot, ~1:30 da wow lahza. Qaysi tugmani bosayotganingizni emas, foydalanuvchi nima olishini ayting |
-| 2:05–2:30 | Qanday ishlaydi: bitta arxitektura qatori/slaydi + sponsor texnologiyasi |
-| 2:30–2:50 | Ta'sir va keyingi qadam: kim ishlatadi, qancha turadi, keyin nima |
-| 2:50–3:00 | Bitta xulosa gapi va jamoa |
+| 0:35–2:05 | **Jonli demo (vaqtning yarmi):** login qilingan holatdan boshlang, tayyorlangan ma'lumot bilan, bitta yo'l, ~1:30 da wow lahza. Avval qanday qiymat yaratadi, keyin nima qiladi; har funksiya ochilishdagi muammoga bog'lanadi |
+| 2:05–2:30 | Qanday ishlaydi: bitta arxitektura qatori/slaydi + sponsor texnologiyasi + "nega oson emas" bitta gapda (kod ko'rsatmasdan) |
+| 2:30–2:50 | Ta'sir va keyingi qadam: kim ishlatadi, qancha turadi; **eng katta zaiflikni o'zingiz ayting va rejasini bering** |
+| 2:50–3:00 | Bitta xulosa gapi va jamoa: "Bir yildan keyin [foydalanuvchi] [natija]. 1-qadamni shu hafta qurdik, 2-qadam — …" |
+
+Pitchni **shu hakamlarga** moslang: investor — bozor hajmi, davlat / NGO — uzoq muddatli ta'sir, korporativ sponsor — uning
+o'z maqsadi. Maqsad — "qo'llamasam, imkoniyatni boy beraman" hissi. Taxminiy nisbat: 20% nega / 30% qanday / 50% nima.
+
+Tayyor iboralar:
+- "Topshiriqda X deyilgan. Bizningcha haqiqiy muammo — Y, chunki…"
+- "Ehtimol [zaiflik] muammo deb o'ylayapsiz. Aynan shunday hal qilamiz: …"
+- "Bu oddiy ko'rinadi, lekin ichida [qiyin qism] — shuning uchun [foydalanuvchi] uchun ishlaydi."
+- "Login — standart narsa. Sizga yangi qismini ko'rsataman."
 
 Slaydlar (5–6): Nom + bir gap / Muammo / Yechim + demo / Qanday ishlaydi / Ta'sir + reja / Jamoa. Jonli demo yiqilsa —
 skrinshotli zaxira slayd. Slayd qoidalari (xulosa aytadigan sarlavha, 7×7, grafik, sarlavha testi) va tekshirish
@@ -66,7 +92,12 @@ ro'yxati: [`../documents/PREZENTATSIYA.md`](../documents/PREZENTATSIYA.md).
 Yozma ta'rif: "**[Kim] uchun [Ilova] [vazifa]ni [usul] orqali bajaradi, natijada ular [natija].**"
 
 Savollarga tayyorlaning: Aniq kim uchun? Bu tadbirda nima qurildi, nima tayyor olindi? Nima birinchi buziladi?
-[Raqobatchi]dan farqi? Qanday pul topadi / kengayadi? Ma'lumot haqiqiymi?
+[Raqobatchi]dan farqi? Qanday pul topadi / kengayadi? Ma'lumot haqiqiymi? Savol-javob demodan uzoq davom etishi
+mumkin — har javob eng kuchli tomoningizga qaytib tugaydi ("…shuning uchun [kuchli tomon]ga e'tibor berdik, u bugun
+boshidan oxirigacha ishlaydi").
+
+Expo formatida (stollar orasida yurish): demo ishlab turgan holda stol yonida turing, hamma o'tganni taklif qiling —
+olomon ko'proq hakamni tortadi, natija ko'pincha sizni qo'llaydigan hakamlar soniga bog'liq.
 
 Demo video: ≤ 2–3 daqiqa, birinchi 60–90 soniyada ilgak va isbot, haqiqiy ilova haqiqiy qurilmada, subtitr, mualliflik
 huquqi bor musiqa yo'q. Video bizning `video/` kit bilan ham qilinadi.
@@ -83,6 +114,15 @@ huquqi bor musiqa yo'q. Video bizning `video/` kit bilan ham qilinadi.
 - [ ] Muddatdan kamida 1 soat oldin topshirilgan
 
 ## Manbalar
+
+YouTube (2026-11-06, transkriptlar orqali):
+- Naman Singh — "How to Win EVERY Hackathon (from a Top 50 Hacker)", https://youtu.be/JWxcEL4mg_Q (eng amaliysi; "buzzword
+  ko'proq ball oladi" va "zaiflik haqida qayg'urmang" da'volarini olmadik)
+- Dr. Anthony Giannoumis — "How to Pitch at Hackathons", https://youtu.be/k00WsEPDmrU
+- TED (Hershenson) — "The Secret to Successfully Pitching an Idea", https://youtu.be/l0hVIH3EnlQ
+- EasyA — "How to win a hackathon", https://youtu.be/MPfOhJs-EKc (asosan o'z tadbirlari reklamasi)
+
+Yozma:
 
 - Hakam eslatmalari: https://dev.to/kurbaitaev/what-judges-actually-score-notes-from-a-year-of-hackathon-judging-3p4l
 - Baholash qanday ishlaydi (25/25/20/15/15): https://intercom.help/builderbase/en/articles/14836129-builder-s-guide-ch-15-how-judging-works
