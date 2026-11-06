@@ -16,8 +16,8 @@ Repo'da modellar, ovoz namunalari, tayyor videolar va tokenlar yo'q.
 Markaz `plugin_generate_video_cloudecode` repo'sining `video-markazi` branch'ida turadi. Opuscar va `kit/` shu repo'ning `main` branch'ida.
 
 ```powershell
-git clone -b video-markazi https://github.com/ubaydullayevgiyosiddin7-eng/plugin_generate_video_cloudecode.git D:\My_projectsideo
-cmd /c mklink /J "$env:USERPROFILE\.claude\skillsideo" "D:\My_projectsideo\skillsideo"
+git clone -b video-markazi https://github.com/ubaydullayevgiyosiddin7-eng/plugin_generate_video_cloudecode.git D:\My_projects\video
+cmd /c mklink /J "$env:USERPROFILE\.claude\skills\video" "D:\My_projects\video\skills\video"
 ```
 
 Papka bog'langani uchun `skills/video` dagi har bir o'zgarish darrov ishlaydi. Yangi Claude sessiyasini oching va `/video` deb yozing.
