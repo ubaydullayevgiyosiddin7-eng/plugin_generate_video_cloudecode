@@ -60,7 +60,8 @@ yopiq yoki havola ishlamaydi; majburiy maydon / format yo'q (diskvalifikatsiya);
 | 2:50–3:00 | Bitta xulosa gapi va jamoa |
 
 Slaydlar (5–6): Nom + bir gap / Muammo / Yechim + demo / Qanday ishlaydi / Ta'sir + reja / Jamoa. Jonli demo yiqilsa —
-skrinshotli zaxira slayd.
+skrinshotli zaxira slayd. Slayd qoidalari (xulosa aytadigan sarlavha, 7×7, grafik, sarlavha testi) va tekshirish
+ro'yxati: [`../documents/PREZENTATSIYA.md`](../documents/PREZENTATSIYA.md).
 
 Yozma ta'rif: "**[Kim] uchun [Ilova] [vazifa]ni [usul] orqali bajaradi, natijada ular [natija].**"
 

@@ -1,5 +1,7 @@
 # Hujjatlar: o'qish, yozish, taqdimot
 
+**Prezentatsiya qilish jarayoni, slayd qoidalari, tekshirish ro'yxati:** [`PREZENTATSIYA.md`](PREZENTATSIYA.md).
+
 Holat: ✅ o'rnatilgan · 🔑 egasi qo'shadi · 📦 kerak bo'lganda
 
 | Nima | Xususiyati | Qachon mos | Holat |
