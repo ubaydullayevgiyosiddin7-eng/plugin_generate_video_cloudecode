@@ -4,6 +4,9 @@ Sayt, landing, ilova interfeysi, backend, deploy. Xakaton, mijoz ishi yoki o'z l
 
 Holat: ✅ o'rnatilgan · 🔑 egasi qo'shadi (sozlama yoki akkaunt kerak) · 📦 kerak bo'lganda olinadi · ⛔ ishlatilmaydi
 
+**Chiroyli UI jarayoni va saboqlar:** [`UI-UX.md`](UI-UX.md) (YouTube'dagi amaliyotchilardan) ·
+**Dizayn tanqidchisi agenti:** [`agents/design-reviewer.md`](agents/design-reviewer.md) (loyihaning `.claude/agents/` iga).
+
 ## Dizayn
 
 | Nima | Xususiyati | Qachon mos | Holat |
