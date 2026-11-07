@@ -12,7 +12,7 @@ bu yerda qaysi bosqichda qaysi biridan foydalanish **tavsiya** etiladi.
 |---|---|---|
 | [`PLAYBOOK.md`](PLAYBOOK.md) | hakamlar qanday baholaydi, 10 qoida, 24 soatlik reja, pitch, topshirish cheklisti | tayyor |
 | [`skills/hackathon/`](skills/hackathon/SKILL.md) | Claude "xakaton" deganda o'zi ishga tushiradigan skill | ✅ `~/.claude/skills/` da |
-| [`agents/spec-reviewer.md`](agents/spec-reviewer.md) | "hakam" agenti: har bir talab va mezonni tekshiradi, ball qo'yadi, top-5 tuzatish | loyihaning `.claude/agents/` iga |
+| [`agents/`](agents/) | **Agentlar jamoasi** (✅ `~/.claude/agents/` da, hamma loyihada): `hackathon-researcher` (manbali faktlar, raqobatchilar, sponsor API), `feature-builder` (bitta funksiya, faqat o'z fayllarida, dalil bilan), `qa-tester` (brauzerda hamma narsani bosib chiqadi), `spec-reviewer` (hakam: talablar va ball), `pitch-writer` (pitch, slaydlar, Devpost, savol-javob) + [`../web/agents/design-reviewer.md`](../web/agents/design-reviewer.md). Kim qachon parallel ishlashi — skillning "Agent team" bo'limida | tayyor |
 | [`templates/SPEC.md`](templates/SPEC.md) | talablar jadvali, mezonlar, demo ssenariysi, MVP chegarasi | tayyor |
 | [`cases/`](cases/) | o'tgan xakatonlar: topshiriq, mezonlar, nima qildik, nima ishladi | birinchisini to'ldirish kerak |
 
