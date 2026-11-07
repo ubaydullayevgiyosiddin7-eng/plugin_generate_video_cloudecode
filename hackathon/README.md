@@ -14,7 +14,7 @@ bu yerda qaysi bosqichda qaysi biridan foydalanish **tavsiya** etiladi.
 | [`skills/hackathon/`](skills/hackathon/SKILL.md) | Claude "xakaton" deganda o'zi ishga tushiradigan skill | ✅ `~/.claude/skills/` da |
 | [`agents/`](agents/) | **Agentlar jamoasi** (✅ `~/.claude/agents/` da, hamma loyihada): `hackathon-researcher` (manbali faktlar, raqobatchilar, sponsor API), `feature-builder` (bitta funksiya, faqat o'z fayllarida, dalil bilan), `qa-tester` (brauzerda hamma narsani bosib chiqadi), `spec-reviewer` (hakam: talablar va ball), `pitch-writer` (pitch, slaydlar, Devpost, savol-javob) + [`../web/agents/design-reviewer.md`](../web/agents/design-reviewer.md). Kim qachon parallel ishlashi — skillning "Agent team" bo'limida | tayyor |
 | [`templates/SPEC.md`](templates/SPEC.md) | talablar jadvali, mezonlar, demo ssenariysi, MVP chegarasi | tayyor |
-| [`cases/`](cases/) | o'tgan xakatonlar: topshiriq, mezonlar, nima qildik, nima ishladi | birinchisini to'ldirish kerak |
+| [`cases/`](cases/) | o'tgan xakatonlar: topshiriq, mezonlar, nima qildik, nima ishladi — birinchisi: [UZEX AI saralash, 511 dan 1-o'rin](cases/2026-11-05-uzex-ai-saralash.md) | 1 ta |
 
 ## Bosqichlar va tavsiya etiladigan toollar
 
