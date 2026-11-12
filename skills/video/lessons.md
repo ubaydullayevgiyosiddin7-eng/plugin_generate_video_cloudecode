@@ -39,4 +39,7 @@ Bu yerda faqat amalda tekshirilgan narsalar turadi. Har bir saboq bitta qator.
 - `uy_doska_reel_v2.mp4`: 39 s, 1080×1920. Manba: `D:\My_projects\UY\ijara-bot\content\films\ijara-doska`.
 - `CaravanTranzit_KGD_reel_v1.mp4`: egasi rad etdi (ohanglar har xil, 6 s jimlik, pauzalar).
 - `CaravanTranzit_KGD_reel_v2.mp4`: telefon ekran yozuvi + Gemini 3.1 Flash TTS (Charon, bitta yozuv) + CC0 musiqa va effektlar, faqat ruscha subtitr, 25.9 s, −14.3 LUFS, ikki QA o'tishi. Manba: `films/caravan-kgd-promo` (`make_edl2.py`, `mix2.py`).
+- `CaravanTranzit_KGD_reel_v3.mp4`: v2 + muhim tugmalarda bosish halqasi (oq nuqta, keyin oq-binafsha halqa kengayib so'nadi; `tap_fx.py`). Egasi ma'qulladi. Ro'yxat suriladigan bosishda halqa surilishdan oldin tugashi kerak.
 - 2026-11-10 (uytop-pitch): iPhone old kamerasi videoni ko'zgudagidek saqlaydi, kiyimdagi yozuv teskari chiqadi. Montajda `hflip` qo'shing va kiyimdagi yozuvga qarab tekshiring.
+- 2026-11-12 (uytop-makler-quiz): Gemini TTS uslub ko'rsatmasini ("Read in Uzbek...", "Say excitedly:") ovoz chiqarib o'qib yuboradi. Uslubni matn ichida teg bilan bering: `[excited] Makler! [quickly] ...`. Teglar o'qilmaydi.
+- 2026-11-12: Gemini TTS bepul tarifi: `gemini-3.8-flash-tts` kuniga 10 so'rov (har model alohida hisoblanadi). Avval 1-2 qatorni sinang, keyin hammasini bitta modelda yarating (ovoz bir xil chiqishi uchun). So'rovlar orasida ~22 s kuting.

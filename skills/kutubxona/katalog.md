@@ -15,6 +15,7 @@ Har bir turda bitta "Asosiy" bo'ladi. Yangi vosita yozilganda sana va izoh qoldi
 |---|---|---|---|---|
 | Film | Opuscar | Asosiy | 66 uslub, kod bilan chiziladi. Reelda faqat Whiteboard Explainer sinalgan. | 2026-11-02 |
 | O'zbekcha ovoz | Navoiy TTS | Asosiy | Egasining ovozida, `warm`, tezlik 1.15. Protsessorda ishlaydi. Talaffuzni egasi tekshiradi. | 2026-11-02 |
+| O'zbekcha ovoz | Gemini TTS (Fenrir) | Muqobil | Sintetik diktor, egasining ovozi kerak bo'lmaganda (quiz, reklama). Talaffuzi o'rtacha, egasi eshitib tekshiradi. Bepul: kuniga 10 so'rov. Kalit: `D:\My_projects\video\.env`. | 2026-11-12 |
 | Vertikal doska | `kit/whiteboard-vertical` | Asosiy | Opuscar doska dvigatelining 9:16 varianti. | 2026-11-02 |
 | Ovoz effekti qidiruvi | Openverse (`kit/sound/openverse.py`) | Asosiy | Kalitsiz. Yangi so'rovlar ba'zan 504 beradi, skript qayta urinadi. | 2026-11-02 |
 | Ovoz miksi | opus-sound-layer | Sinovda | CC0 ovozlar, `mix.py` va `qa.py`. Klonlangan, o'rnatilmagan. | - |
