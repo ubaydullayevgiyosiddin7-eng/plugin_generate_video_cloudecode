@@ -33,6 +33,12 @@ Bu saboqlar egasi bilan 2026-yil noyabrida bitta Telegram Mini App (bojxona stat
 
    Ilovada `?mock=1` rejimi bo'lsin, unda har bir holatni parametr bilan ochish mumkin bo'lsin.
 7. **Oxirgi so'z egasiniki.** U telefonda ko'radi.
+8. **Takliflarni ko'rinishda bering, ro'yxatda emas.**
+   - Takliflarni alohida git tarmog'ida haqiqiy kodda qiling.
+   - Har bir taklif uchun "hozir" va "taklif" holatini namuna rejimida suratga oling. "Hozir" suratini eski koddan oling (`git archive <commit>`), yangi kod ustidan emas.
+   - Bitta sahifada yonma-yon ko'rsating: raqamli bandlar, har bandda muammo va taklif bittadan jumla. Egasining qarori kerak bo'lgan bandni alohida belgilang.
+   - Egasi raqam bilan tanlaydi. Deploy faqat tanlovdan keyin bo'ladi, tanlanmaganlari koddan olib tashlanadi.
+   - Bu matnli ro'yxatdan yaxshi ishladi: egasi ro'yxatda ko'rmagan mantiqiy kamchilikni rasmda darhol topdi.
 
 ## Shisha (liquid glass) retsepti
 
@@ -85,8 +91,16 @@ Bu saboqlar egasi bilan 2026-yil noyabrida bitta Telegram Mini App (bojxona stat
 - **Bitta element, bitta karta:** raqam qayta tekshirilsa yangi karta qo'shilmaydi, mavjudi tepaga chiqadi.
 - **Animatsiya:** ishora bo'lsin, plakat emas. Tekshirish sahnasining balandligi ~60 px.
 - **Til tanlash:** alohida sahifa emas, tez ochiladigan menyu.
+- **Keyingi qadam tugmasi faqat noaniq holatda.** Aniq javobdan keyin (masalan "nazorat bor/yo'q") tugma yo'q: foydalanuvchi aynan shu javob uchun kirgan. Texnik xatoda ham operator tugmasi yo'q, qayta tekshirish yetadi. "Operatorga yozish" faqat bizning bot javobni tushunmaganda chiqadi va operatorning o'z chatini ochadi.
+- **Bitta holat, bitta nom.** Har ekranda bir xil so'z ishlatiladi. Qisqa nom to'liq nomning qisqargan shakli bo'ladi, boshqa so'z emas (masalan "Bojxona nazorati yo'q" → "Nazorat yo'q"). Ichki raqamlar (so'rov №) foydalanuvchiga ko'rsatilmaydi.
+- **Saqlash bir bosishda.** Qo'shimcha ma'lumotni (izoh) keyin, tahrirlash sahifasida so'rang. O'chirish ham o'sha sahifada, tasdiq bilan.
+- **Bir ro'yxat bir joyda.** Natija va "saqlanganlar" bitta ekranda bir xil kartada takrorlanmasin. Saqlanganlar kirish maydoni yonida kichik chip bo'lib tursin.
 - **Telefon raqamlari:** bosiladigan qatorlar, "Qo'ng'iroq qilish" yozuvisiz.
 - **Tor joy:** kalta matn kalitlari kerak (masalan "Saqlangan"). 360 px'da status ikki qatorga tushmasin, rus tilida tushishi mumkin.
+
+## Sinov tuzog'i
+
+- **pytest:** `*_test.py` nomli har qanday faylni test deb yig'adi, `tools/` dagi skriptni ham. Jonli sinov skripti (haqiqiy botga yozadigan) shunday nomlansa, har test yurganda ishga tushadi. Skript oxiri `if __name__ == "__main__":` bilan yopilsin. Testlar sezilarli sekinlashsa, shu narsaga shubha qiling.
 
 ## Halollik
 
