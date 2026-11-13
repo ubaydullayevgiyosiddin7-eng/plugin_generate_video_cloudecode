@@ -23,6 +23,8 @@ Har bir turda bitta "Asosiy" bo'ladi. Yangi vosita yozilganda sana va izoh qoldi
 | Ovoz tekshiruvi va yaratish | Earshot | Sinovda | Ovozni baholaydi, mos ovoz topilmasa kod bilan yaratadi. Klonlangan, o'rnatilmagan. | - |
 | Reels strukturasi | 8 blok (TAMGA) | Sinovda | `skills/video/news.md` ga qarang. Reellarimizda o'lchanmagan. | - |
 
-## Boshqa yo'nalishlar
+## Dizayn
 
-Hozircha yo'q.
+| Turi | Nomi | Holat | Izoh | Tekshirilgan |
+|---|---|---|---|---|
+| Mini App dizayni | `miniapp-dizayn` skill | Asosiy | Shisha (liquid glass) retsepti, ChatGPT HTML maketidan ko'chirish, natija kartasi qoidalari, iPhone/Telegram tuzoqlari. Bitta Telegram Mini App'da sinalgan. | 2026-11-13 |

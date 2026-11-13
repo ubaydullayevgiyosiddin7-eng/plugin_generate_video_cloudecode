@@ -9,7 +9,7 @@ Egasi o'zbek tilida gaplashadi: unga o'zbekcha (lotin) javob bering.
 
 Asl manba: `D:\My_projects\video`. Ro'yxat: `skills/kutubxona/katalog.md`. Avval katalogni o'qing.
 
-Har bir yo'nalish alohida skill: `skills/<nomi>/SKILL.md`. Hozir: `video` va `kutubxona`. Yangi yo'nalish uchun yangi skill oching, mavjudini kattalashtirmang.
+Har bir yo'nalish alohida skill: `skills/<nomi>/SKILL.md`. Hozir: `video`, `miniapp-dizayn` va `kutubxona`. Yangi yo'nalish uchun yangi skill oching, mavjudini kattalashtirmang.
 
 ## Yangi narsa qo'shish
 
