@@ -98,8 +98,21 @@ Bu saboqlar egasi bilan 2026-yil noyabrida bitta Telegram Mini App (bojxona stat
 - **Telefon raqamlari:** bosiladigan qatorlar, "Qo'ng'iroq qilish" yozuvisiz.
 - **Tor joy:** kalta matn kalitlari kerak (masalan "Saqlangan"). 360 px'da status ikki qatorga tushmasin, rus tilida tushishi mumkin.
 
+## Mini App'dan PWA
+
+Bitta sahifa ikki rejimda ishlaydi: `initData` bo'lsa Mini App, bo'lmasa PWA. Telegram ichidagi xulq o'zgarmasin, har bir yangilik PWA bayrog'i ortida tursin.
+
+- **Login'siz qurilma kaliti.** Kalit `localStorage` da va server qo'ygan HttpOnly cookie'da saqlanadi. Safari saytning xotirasini tozalasa, ro'yxatdan o'tish endpointi cookie'dagi **eski kalitni qaytarishi** shart. Aks holda ilova yangi telefon bo'lib qoladi va ma'lumotlar yo'qoladi.
+- **Keshdagi profil** o'qiladigan nom bilan yozilsin. Telegram id'si yo'q, shuning uchun PWA uchun doimiy nom kerak. Bu bajarilmasa, PWA har ochilishda serverni kutadi va internetsiz ochilmaydi.
+- **"Xabarnoma yoqilgan" yozuvi** obuna serverga yetib borgandan keyingina chiqsin, ruxsatning o'zi yetarli emas. Obuna so'roviga vaqt chegarasi qo'ying (15 s): push servisi javob bermasa, tugma qaytib kelsin.
+- **iPhone'da o'zbek tili yo'q.** O'rnatish qadamlari telefondagi nom bilan yozilsin: «Поделиться», «На экран „Домой“» (inglizcha iPhone'da inglizcha).
+- **Service worker:** avval tarmoqdan oladi, keshdan faqat internet yo'q bo'lsa beradi. API'ga tegmaydi. Telegram ichida ro'yxatdan o'tkazilmaydi.
+- **Oqimdan himoya.** PWA ochiq bo'lgani uchun har telefonga, har tarmoqqa va hammaga birga limit qo'ying. Ayniqsa umumiy akkaunt orqali ishlaydigan narsaga.
+- **Mock yetarli emas.** Haqiqiy backend'ni soxta Telegram bilan ko'tarib, brauzerda mock'siz oxiridan oxirigacha sinang. Yuqoridagi to'rt xatoni mock ko'rsatmagan edi.
+
 ## Sinov tuzog'i
 
+- **Port band bo'lsa:** oldingi sinovdan qolgan `http.server` boshqa sahifani berib turishi mumkin (POST'ga 501 qaytaradi). Sinovdan keyin serverlarni to'xtating.
 - **pytest:** `*_test.py` nomli har qanday faylni test deb yig'adi, `tools/` dagi skriptni ham. Jonli sinov skripti (haqiqiy botga yozadigan) shunday nomlansa, har test yurganda ishga tushadi. Skript oxiri `if __name__ == "__main__":` bilan yopilsin. Testlar sezilarli sekinlashsa, shu narsaga shubha qiling.
 
 ## Halollik
